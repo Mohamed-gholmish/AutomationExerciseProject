@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test verbose="1" name="Automation Exercise Checkout Process">
+        <classes>
+            <class name="Tests.TestCheckoutProcess">
+                <methods>
+                    <include name="testCheckoutProcess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
