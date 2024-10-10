@@ -16,7 +16,7 @@ public class HomePage {
         this.driver = driver;
     }
 
-    //TODO search for the best practice for naming
+
     @Step("Click to open Login Page")
     public LoginPage clickOnLogin() {
         Utility.clickingOnElement(driver, loginButton);
