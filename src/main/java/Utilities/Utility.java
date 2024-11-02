@@ -52,7 +52,6 @@ public class Utility {
         try {
             // Capture screenshot using TakesScreenshot
             File screenshotSrc = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
             // Save screenshot to a file if needed
             File screenshotFile = new File(
                     SCREENSHOTS_PATH + screenshotName + "-" + getTimeStamp() + ".png");
